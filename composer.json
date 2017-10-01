@@ -1,0 +1,21 @@
+{
+  "type": "library",
+  "name": "hooloovoo/generator",
+  "description": "Simple code generator",
+  "keywords": ["code generator"],
+  "homepage": "https://github.com/vnejedly/generator",
+  "license": "MIT",
+  "authors": [{
+    "name": "Vladislav Nejedlý",
+    "email": "vladislav.nejedly@gmail.com",
+    "homepage": "https://www.linkedin.com/in/vladislav-nejedl%C3%BD-7140117b"
+  }],
+  "autoload": {
+    "psr-4": {
+      "Hooloovoo\\Generator\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.0.0"
+  }
+}
